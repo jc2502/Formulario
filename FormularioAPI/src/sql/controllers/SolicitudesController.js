@@ -1,4 +1,4 @@
-const SolicitudesService = require('../services/SolicitudesService');
+const { SolicitudesService } = require('../services/SolicitudesService');
 
 class SolicitudesController {
     static async getAll(req, res) {

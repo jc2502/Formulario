@@ -1,4 +1,4 @@
-const InventarioService = require('../services/inventarioservice');
+const { InventarioService } = require('../services/InventarioService');
 
 class InventarioController {
     static async getAll(req, res) {

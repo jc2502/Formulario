@@ -1,4 +1,4 @@
-const ObjetosService = require('../services/objetosservice');
+const { ObjetosService } = require('../services/ObjetosService');
 
 class ObjetosController {
     static async getAll(req, res) {
